@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoogleSheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form method="post" action="https://script.google.com/macros/s/AKfycbwdSOWI5gSY9SivsJiIgUm4LSV6jPMC734Sv-t7aPjhkik9-cpsJOZe8JcAXrmPbXLiGg/exec" name="contact-form">
+            <h4>Formuleer Pendaftaran</h4>
+            <div class="input-wrapper">
+                <label for="">Nama</label>
+                <input type="text" name="user-name" placeholder="Nama lengkap mu">
+            </div>
+            <div class="input-wrapper">
+                <label for="">No.Telp</label>
+                <input type="text" name="user-number" placeholder="Nomor Telepon">
+            </div>
+            <div class="input-wrapper">
+                <label for="">Alamat Email</label>
+                <input type="email" name="user-email" placeholder="Alamat Email">
+            </div>
+            <div class="input-wrapper">
+                <label for="">Pengalaman</label>
+                <textarea name="message" rows="7" placeholder="Ceritakan Pengalamanmu"></textarea>
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
